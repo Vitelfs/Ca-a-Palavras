@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 #include "funcoes/criarTabela.cpp"
 #include "funcoes/escreverTabela.cpp"
 #include "funcoes/preencherTabelaPalavras.cpp"
