@@ -1,6 +1,6 @@
 #include <iostream>
 
-void preencherTabelaPalavras(std::string (&tabela)[][30], std::string palavras[][8], int numeroPalavras,int decisao){
+void preencherTabelaPalavras(std::string (*tabela)[30], std::string palavras[][8], int numeroPalavras,int decisao){
 
     int posicoesUsadas[30][30] = {0};  // matriz para manter registro das posições já ocupadas
     int linhaAleatoria, colunaAleatoria;
