@@ -2,7 +2,7 @@
 #include <vector>
 #include <windows.h>
 
-void escreverTabela(std::string (&tabela)[][30],std::vector<std::string> armazenarChute){ //gera a tabela XD
+void escreverTabela(std::string (*tabela)[30],std::vector<std::string> armazenarChute){ //gera a tabela XD
 
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),9);
     std::cout << " --------------------------------------------------------------------------------------------\n";
